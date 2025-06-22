@@ -2,12 +2,10 @@
 
 const CACHE_NAME = 'flag-quiz-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/favicon.ico',
-  '/logo192.png',
-  '/logo512.png'
+  'index.html',
+  'manifest.json',
+  'img/favicon.ico',
+  'img/flag-quiz-preview.jpg'
 ];
 
 // Install event - Cache basic app shell
